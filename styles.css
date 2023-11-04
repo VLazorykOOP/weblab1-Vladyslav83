@@ -1,0 +1,108 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the main container */
+.container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилізація посилання "Про мене" */
+a.about-link {
+    text-decoration: none; /* Видаляє підкреслення з посилання */
+    background-color: #333; /* Колір фону посилання */
+    color: #fff; /* Колір тексту посилання */
+    padding: 10px 20px; /* Відступи для тексту посилання */
+    border-radius: 5px; /* Округлі кути */
+    margin-bottom: 20px; /* Відступ від іншого контенту */
+    display: inline-block; /* Зробити посилання блоковим елементом */
+}
+
+/* Стилізація тексту під посиланням "Про мене" */
+.about-description {
+    font-size: 16px; /* Розмір шрифту */
+    color: #c51a1a; /* Колір тексту */
+    margin-top: 10px; /* Відступ від посилання */
+}
+
+
+/* Style the headings */
+h1, h2 {
+    color: #333;
+}
+
+/* Style paragraphs */
+p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Style the list items */
+li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style specific elements within list items */
+li strong {
+    color: #555;
+}
+
+/* Apply different styles to alternate list items */
+li:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+/* Style the price within list items */
+li strong:last-child {
+    font-size: 20px;
+    color: #dc3510;
+}
+
+/* Стилізація зображення машини */
+/* Стилізація зображення машини та ціни */
+/* Стилізація зображення машини */
+.car-image {
+    clear: both; /* Запобігає зміщенню елементів вправо та вліво */
+    margin-top: 10px; /* Відступ від ціни */
+}
+
+/* Стилізація ціни */
+.car-item {
+    float: left; /* Розміщення ліворуч */
+    margin-right: 5px; /* Відступ від тексту та зображення */
+    width: 50%; /* Задайте потрібну ширину */
+}
+
+/* Зміна розміру зображення машини */
+.car-image img {
+    max-width: 450px; /* Задайте максимальну ширину в пікселях або іншу потрібну вам величину */
+    height: auto; /* Збереження пропорцій */
+    display: block;
+    margin: 0 auto;
+}

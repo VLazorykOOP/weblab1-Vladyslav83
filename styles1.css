@@ -1,0 +1,89 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the main container */
+.container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Стилізація посилання "Назад" */
+.about-link {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Стилізація тексту під посиланням "Назад" */
+.about-description {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Style the headings */
+h1, h2 {
+    color: #333;
+}
+
+/* Style paragraphs */
+p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Style the list items */
+li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style specific elements within list items */
+li strong {
+    color: #555;
+}
+
+/* Apply different styles to alternate list items */
+li:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+/* Стилізація класу "about-me" */
+.about-me {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin-top: 20px;
+    background-color: #f9f9f9; /* Додав фоновий колір */
+    padding: 20px; /* Додав внутрішні відступи */
+    border-radius: 5px;
+}
+
